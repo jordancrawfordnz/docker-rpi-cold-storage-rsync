@@ -8,4 +8,4 @@ MAINTAINER Jordan Crawford <jordan.crawford@me.com>
 RUN apt-get update; apt-get install rsync
 
 ENTRYPOINT ["rsync"]
-CMD ["-aPv", "/backupsource/", "/backupdest/"]
+CMD ["-aPv", "--delete", "/backupsource/", "/backupdest/"]
