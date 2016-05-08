@@ -1,6 +1,6 @@
 FROM resin/rpi-raspbian:jessie
 
-MAINTAINER Jordan Crawford <me@jordancrawford.co.nz>
+MAINTAINER Jordan Crawford <jordan@crawford.kiwi>
 
 # Install rsync.
 RUN apt-get update; apt-get install rsync
